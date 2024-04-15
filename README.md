@@ -64,7 +64,7 @@ due to limitations in the results returned by the API.
    the access token when it is generated – if you lose it, you will have to
    regenerate the token. Also goto Settings of the Stats Repo -> Action -> General -> Workflow permissions and choose read and write permissions.
    And makesure ' Allow GitHub Actions to create and approve pull requests ' is checked.
-3. Click [here](https://github.com/vaishnavid0604/github-stats/generate) to create a
+3. Click [here](https://github.com/ab007shetty/github-stats/generate) to create a
    fork of this repository
 4. If this is the README of your fork, click [this
    link](../../settings/secrets/actions) to go to the "Secrets" page.
@@ -80,7 +80,7 @@ due to limitations in the results returned by the API.
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/vaishnavid0604/github-stats/blob/master/.github/workflows/main.yml))
+     workflow](https://github.com/ab007shetty/github-stats/blob/master/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 7. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
